@@ -1,0 +1,129 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+}
+.navbar-brand {
+    font-weight: bold;
+    margin-left: 40px;
+}
+.brand-bold {
+    font-size: 25px;
+    letter-spacing: 9PX; 
+}
+
+.brand-normal {
+    font-size: small;
+    letter-spacing: 1px;
+    color: rgb(138, 136, 136);
+    
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.navbar-nav li {
+    margin: 0 10px;
+}
+
+.navbar-nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: larger;
+    padding:14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.dropdown-toggle::after {
+    content: "\25BE";
+    margin-left: 5px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    padding: 10px;
+    z-index: 1;
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-button {
+    border: 1px solid black;
+    padding: 20px 40px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    margin-right: 70px;
+    }   
+body {
+    margin: 0;
+    }
+ 
+ .image-container {
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    } 
+        
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+    }
+    
+ .image-content {
+      position: absolute;
+    top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%); 
+   
+     text-align: center;
+     margin-top: 60px; 
+ }
+
+ .image-heading {
+     color: #fff;
+     font-size:45px;
+     margin-top: -500px;
+     letter-spacing: 10px;
+    
+ }
+.image-paragraph {
+    margin-top: 5px;
+    color: #fff;
+    font-size:medium;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.image-button-container {
+    border: 1px solid #fff;
+    margin-top: 45px;
+    letter-spacing: 2px;
+  
+    padding: 20px;
+    margin-left: 35%;
+    width: 200px;
+}
+
+.image-button {
+    text-decoration: none;
+    color: #fff;
+}
+                                                                                                                               
